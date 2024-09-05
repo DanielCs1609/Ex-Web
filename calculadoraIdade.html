@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Calculadora de Idade</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Calculadora de Idade</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="ageCalculatorForm">
+                    <div class="form-group">
+                        <label for="birthdate">Data de Nascimento:</label>
+                        <input type="date" class="form-control" id="birthdate" required>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block" onclick="calculateAge()">Calcular Idade</button>
+                </form>
+                <div class="mt-4">
+                    <h4 id="result" class="text-center"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 py-4 bg-light">
+        <div class="container">
+            <p>Outras Atividades:</p>
+            <a href="calculadora.html" class="text-primary">Calculadora</a> |
+            <a href="calculadoraIMC.html" class="text-primary">Calculadora IMC</a> |
+            <a href="dataehora.html" class="text-primary">Data e Hora</a>
+        </div>
+    </footer>
+
+    <script src="script/calculadoraIdade.js"></script>
+</body>
+</body>
+</html>
